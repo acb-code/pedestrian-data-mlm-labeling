@@ -1,0 +1,6 @@
+outs:
+- md5: 18ab89fc7987955ee76c2121d1a9d085.dir
+  size: 9454506
+  nfiles: 85
+  hash: md5
+  path: package
