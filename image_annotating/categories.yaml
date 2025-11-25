@@ -1,0 +1,32 @@
+affordance_tags:
+  - turn_left
+  - turn_right
+  - crosswalk
+  - sidewalk
+  - road
+  - open_space
+  - narrow_passage
+  - stairs
+  - ramp
+
+risk_level:
+  - low
+  - medium
+  - high
+
+surface:
+  - pavement
+  - grass
+  - gravel
+  - dirt
+
+lighting:
+  - day
+  - dusk
+  - night
+
+density:
+  - empty
+  - low
+  - medium
+  - high
