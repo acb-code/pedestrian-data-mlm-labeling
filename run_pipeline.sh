@@ -12,7 +12,7 @@ echo "============================="
 echo "============================="
 echo "STEP 2 — LLM annotation"
 echo "============================="
-(cd "$ROOT" && uv run image_annotating/run_mlm_labels.py --force)
+(cd "$ROOT" && uv run image_annotating/run_mlm_labels.py)
 
 echo "============================="
 echo "STEP 3 — Initial validation"
