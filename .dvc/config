@@ -1,0 +1,6 @@
+[core]
+    remote = gdrive
+['remote "gdrive"']
+    url = gdrive://1BY_3NAuNOnO3BOQyj1iod4OliBZydRAT
+    gdrive_use_service_account = true
+    gdrive_service_account_json_file_path = /home/alex/.config/dvc/gen-lang-client-0775961272-b4ccacbc4243.json
