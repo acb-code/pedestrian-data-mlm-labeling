@@ -55,6 +55,7 @@ Steps executed:
 - Repair missing fields (LLM): `uv run data_cleaning/repair_missing_fields_llm.py`
 - Compute embeddings: `uv run analysis/compute_text_embeddings.py`
 - Compute PCA/UMAP: `uv run analysis/compute_projections.py`
+- Build packaged dataset: `uv run packaging/build_packaged_dataset.py --split`
 
 ## Notebooks
 - `analysis/bounding_box_analysis_v2.ipynb` — bounding-box QA/visualization. Run after pipeline stages; auto-detects repo root.
@@ -69,6 +70,7 @@ Steps executed:
 - Fully cleaned dataset: `data/cleaned/annotations_fully_cleaned.jsonl`
 - Validation reports: `data_cleaning/report_llm_raw.txt`, `data_cleaning/report_final.txt`
 - Embeddings + projections: `data/analysis/*`
+- Packaged dataset exports: `data/package/annotations_native.jsonl`, `data/package/annotations_coco.json`, `data/package/index.csv`, `data/package/images/` (symlinks)
 
 ## Notes
 - LLM-powered steps (labeling, repairs, embeddings) incur API calls/costs; keep an eye on your quota.

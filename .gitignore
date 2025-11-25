@@ -9,6 +9,7 @@
 *.html
 *.tfrecord
 drive_mlm_waymo_data/google-cloud-sdk/
+*.csv
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
