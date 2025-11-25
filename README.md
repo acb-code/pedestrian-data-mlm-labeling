@@ -1,0 +1,1 @@
+Use `uv sync` to install dependencies.
