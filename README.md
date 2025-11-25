@@ -57,7 +57,8 @@ Steps executed:
 - Compute PCA/UMAP: `uv run analysis/compute_projections.py`
 
 ## Notebooks
-- `analysis/bounding_box_analysis_v2.ipynb` Open in Jupyter/VS Code and ensure embeddings/cleaned data exist before running later cells. Note that current Gemini bounding box and segmentation quality can vary - data cleaning scripts are used to fix errors, but issues may persist.
+- `analysis/bounding_box_analysis_v2.ipynb` — bounding-box QA/visualization. Run after pipeline stages; auto-detects repo root.
+- `analysis/explore_pedestrian_affordances.ipynb` — explore annotations/affordances interactively with processed images.
 
 ## Inputs and outputs (key files)
 - Input images: `data/raw/images_original/`
